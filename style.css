@@ -2,8 +2,9 @@
 
 :root {
     --cor-principal: #1c5eec;
-    --cor-secundaria: #284260;
-    --cor-destaque: #15ac42;
+    --cor-secundaria: #1e72d3;
+    --cor-destaque: #f13737;
+   
 }
 
 body {
@@ -12,12 +13,12 @@ body {
 
 h1, h2, h5 {
     color: var(--cor-secundaria);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .lead, .btn-link {
     color: var(--cor-destaque);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 a, .btn-link:hover {
@@ -27,3 +28,18 @@ a, .btn-link:hover {
 a:hover{
     color: var(--cor-destaque);
 }
+.bg-secondary {
+    background-color: var(--cor-principal); 
+    color: rgb(241, 228, 33);
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin: 0.3em;
+    border-radius: 1em;
+    font-size: 0.9rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+    .bg-secondary:hover {
+        background-color: var(--cor-destaque); 
+        color: #7318db;
+    }
